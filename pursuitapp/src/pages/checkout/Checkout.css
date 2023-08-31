@@ -1,0 +1,127 @@
+.checkoutContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ 
+ 
+ .checkoutWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+ }
+ 
+ 
+ .trip-info {
+    flex: 7;
+ }
+ 
+ 
+ .tripTitle {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ 
+ ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+ }
+ 
+ 
+ .costBox {
+    flex: 2;
+    background-color: #b4b4b4;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+ }
+
+ .costInfo{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+
+.checkout-instructor-container{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.checkout-instructor-container>button {
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.checkout-instructor-container>button:focus {
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(201, 201, 201);
+}
+
+.selected-instructor-button {
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgb(201, 201, 201);
+}
+
+.checkout-instructorImg {
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.instr-page-link {
+    cursor: pointer;
+}
+
+.myplans-gmember-container{
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.myplans-gmember-container>button {
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.checkoutInput{
+    display: block;
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkoutInput:focus {
+    outline: none;
+    border-color: #003580;
+    box-shadow: 0 0 7px #003580;
+}
+
+
+.checkoutInputContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 63%;
+
+}
+
+.checkoutInputContainer>input{
+    flex: 1;
+    
+}

@@ -1,0 +1,112 @@
+.checkoutContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ 
+ 
+ .checkoutWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+ }
+ 
+ 
+ .trip-info {
+    flex: 7;
+ }
+ 
+ 
+ .tripTitle {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ 
+ .members {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+ 
+ ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+ }
+ 
+ 
+ .costBox {
+    flex: 2;
+    background-color: #003580;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+ }
+
+ .costInfo{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .myplans-instructor-container{
+   justify-content: left;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+
+.myplans-instructor-container>button {
+   padding: 10px;
+   border-radius: 10%;
+}
+
+.costDetail{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-bottom: 10px;
+   color:white;
+}
+
+.bookButton-white{
+   height: 40px;
+   width: auto;
+   appearance: button;
+   background-color: white;
+   border-radius: 6px;
+   border-width: 0;
+   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+   box-sizing: border-box;
+   color: #000000;
+   cursor: pointer;
+   font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+   font-size: 100%;
+   line-height: 1.15;
+   margin: 12px 0 0;
+   outline: none;
+   overflow: hidden;
+   padding: 0 25px;
+   position: relative;
+   text-align: center;
+   text-transform: none;
+   transform: translateZ(0);
+   transition: all .2s,box-shadow .08s ease-in;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+}
+
+.costHeader{
+   color: white;
+}
+
+.myplans-gmember-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap; /* add this */
+   gap: 20px;
+ }
